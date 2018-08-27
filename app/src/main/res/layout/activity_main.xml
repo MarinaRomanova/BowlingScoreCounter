@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bowling"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/margin_bottom"
+            android:layout_marginTop="@dimen/margin_top"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/player1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/title_margin"
+                android:gravity="center"
+                android:text="@string/player_1"
+                android:textColor="@color/player_1"
+                android:textSize="@dimen/title_text" />
+
+            <TextView
+                android:id="@+id/player1_score"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/title_margin"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center"
+                android:text="@string/_0"
+                android:textColor="@color/score1"
+                android:textSize="@dimen/score_text" />
+
+            <LinearLayout
+                android:id="@+id/player1_Buttons"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/last_raw_of_Pins_Player1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/seven_Points_Button_Player1"
+                        style="@style/RoundButtonPlayer1"
+                        android:background="@drawable/round_button_1"
+                        android:text="@string/_7" />
+
+                    <Button
+                        android:id="@+id/eight_Points_Button_Player1"
+                        style="@style/RoundButtonPlayer1"
+                        android:background="@drawable/round_button_1"
+                        android:text="@string/_8" />
+
+                    <Button
+                        android:id="@+id/nine_Points_Button_Player1"
+                        style="@style/RoundButtonPlayer1"
+                        android:background="@drawable/round_button_1"
+                        android:text="@string/_9" />
+
+                    <Button
+                        android:id="@+id/ten_Points_Button_Player1"
+                        style="@style/RoundButtonPlayer1"
+                        android:background="@drawable/round_button_1"
+                        android:text="@string/_10" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/third_raw_of_Pins_Player1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/four_Points_Button_Player1"
+                        style="@style/RoundButtonPlayer1"
+                        android:background="@drawable/round_button_1"
+                        android:text="@string/_4" />
+
+                    <Button
+                        android:id="@+id/five_Points_Button_Player1"
+                        style="@style/RoundButtonPlayer1"
+                        android:background="@drawable/round_button_1"
+                        android:text="@string/_5" />
+
+                    <Button
+                        android:id="@+id/six_Points_Button_Player1"
+                        style="@style/RoundButtonPlayer1"
+                        android:background="@drawable/round_button_1"
+                        android:text="@string/_6" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/second_raw_of_Pins_Player1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/two_Points_Button_Player1"
+                        style="@style/RoundButtonPlayer1"
+                        android:background="@drawable/round_button_1"
+                        android:text="@string/_2" />
+
+                    <Button
+                        android:id="@+id/three_Points_Button_Player1"
+                        style="@style/RoundButtonPlayer1"
+                        android:background="@drawable/round_button_1"
+                        android:text="@string/_3" />
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/one_Point_Button_Player1"
+                    style="@style/RoundButtonPlayer1"
+                    android:layout_gravity="center"
+                    android:background="@drawable/round_button_1"
+                    android:text="@string/_1" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/margin_bottom"
+            android:layout_marginTop="@dimen/margin_top"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/player2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/title_margin"
+                android:gravity="center"
+                android:text="@string/player_2"
+                android:textColor="@color/player_2"
+                android:textSize="@dimen/title_text" />
+
+            <TextView
+                android:id="@+id/player2_score"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/title_margin"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center"
+                android:text="@string/_0"
+                android:textColor="@color/score2"
+                android:textSize="@dimen/score_text" />
+
+            <LinearLayout
+                android:id="@+id/player2_Buttons"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/last_raw_of_Pins_Player2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/seven_Points_Button_Player2"
+                        style="@style/RoundButtonPlayer2"
+                        android:background="@drawable/round_button_2"
+                        android:text="@string/_7" />
+
+                    <Button
+                        android:id="@+id/eight_Points_Button_Player2"
+                        style="@style/RoundButtonPlayer2"
+                        android:background="@drawable/round_button_2"
+                        android:text="@string/_8" />
+
+                    <Button
+                        android:id="@+id/nine_Points_Button_Player2"
+                        style="@style/RoundButtonPlayer2"
+                        android:background="@drawable/round_button_2"
+                        android:text="@string/_9" />
+
+                    <Button
+                        android:id="@+id/ten_Points_Button_Player2"
+                        style="@style/RoundButtonPlayer2"
+                        android:background="@drawable/round_button_2"
+                        android:text="@string/_10" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/third_raw_of_Pins_Player2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/four_Points_Button_Player2"
+                        style="@style/RoundButtonPlayer2"
+                        android:background="@drawable/round_button_2"
+                        android:text="@string/_4" />
+
+                    <Button
+                        android:id="@+id/five_Points_Button_Player2"
+                        style="@style/RoundButtonPlayer2"
+                        android:background="@drawable/round_button_2"
+                        android:text="@string/_5" />
+
+                    <Button
+                        android:id="@+id/six_Points_Button_Player2"
+                        style="@style/RoundButtonPlayer2"
+                        android:background="@drawable/round_button_2"
+                        android:text="@string/_6" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/second_raw_of_Pins_Player2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/two_Points_Button_Player2"
+                        style="@style/RoundButtonPlayer2"
+                        android:background="@drawable/round_button_2"
+                        android:text="@string/_2" />
+
+                    <Button
+                        android:id="@+id/three_Points_Button_Player2"
+                        style="@style/RoundButtonPlayer2"
+                        android:background="@drawable/round_button_2"
+                        android:text="@string/_3" />
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/one_Point_Button_Player2"
+                    style="@style/RoundButtonPlayer2"
+                    android:layout_gravity="center"
+                    android:background="@drawable/round_button_2"
+                    android:text="@string/_1" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="@dimen/divider"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:background="@color/player_2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/small_margin"
+        android:background="@color/button"
+        android:onClick="resetScore"
+        android:text="@string/reset"
+        android:paddingLeft="@dimen/reset_padding"
+        android:paddingRight="@dimen/reset_padding"
+        android:textAllCaps="true"
+        android:textColor="@color/reset_button_text" />
+</RelativeLayout>

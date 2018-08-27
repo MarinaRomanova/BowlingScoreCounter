@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#757575</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="round_button_text">#757575</color>
+    <color name="player_2">#E1F5FE</color>
+    <color name="player_1">#FFEBEE</color>
+    <color name="button">#EF5350</color>
+    <color name="reset_button_text">#FFFFFF</color>
+    <color name="score1">#EF9A9A</color>
+    <color name="score2">#81D4FA</color>
+</resources>

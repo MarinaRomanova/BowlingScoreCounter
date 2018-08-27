@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorButtonNormal">@color/button</item>
+    </style>
+
+    <!-- Style for a round button for a Player 1>-->
+    <style name="RoundButtonPlayer1">
+        <item name="android:layout_height">@dimen/round_button_size</item>
+        <item name="android:layout_width">@dimen/round_button_size</item>
+        <item name="android:layout_margin">@dimen/round_button_margin</item>
+        <item name="android:textColor">@color/round_button_text</item>
+    </style>
+
+    <!-- Style for a round button for a Player 2>-->
+    <style name="RoundButtonPlayer2">
+        <item name="android:layout_height">@dimen/round_button_size</item>
+        <item name="android:layout_width">@dimen/round_button_size</item>
+        <item name="android:layout_margin">@dimen/round_button_margin</item>
+        <item name="android:textColor">@color/round_button_text</item>
+    </style>
+
+</resources>
